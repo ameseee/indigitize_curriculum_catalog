@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Offerings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="https://www.indigitize.org/">
+        <img src="https://images.squarespace-cdn.com/content/v1/62e7103553cc8f67ee0308d3/0821afce-0a28-49df-ab12-99505cd28f93/Indigitize+Logo-no+background-08.jpg?format=1500w"/>
+      </a>
+      <!-- <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul> -->
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Curriculum Offerings</h1>
+    
+    <div id="filters">
+      <label for="grade">Grade:</label>
+      <select id="grade">
+        <option value="k-2">K-2</option>
+        <option value="3-5">3-5</option>
+        <option value="6-8">6-8</option>
+        <option value="9-12">9-12</option>
+      </select>
+      
+      <label for="duration">Duration:</label>
+      <select id="duration">
+        <option value="standalone">Stand Alone Lesson</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option>
+        <option value="semester">Semester</option>
+      </select>
+      
+      <label for="topic">Topic:</label>
+      <select id="topic">
+        <!-- Add your topic options here -->
+      </select>
+      
+      <label for="filter1">Filter 1:</label>
+      <select id="filter1">
+        <!-- Add your options for filter 1 here -->
+      </select>
+      
+      <label for="filter2">Filter 2:</label>
+      <select id="filter2">
+        <!-- Add your options for filter 2 here -->
+      </select>
+      
+      <label for="filter3">Filter 3:</label>
+      <select id="filter3">
+        <!-- Add your options for filter 3 here -->
+      </select>
+      
+      <button id="applyFilter">Apply Filter</button>
+    </div>
+    
+    <div id="resourceCards">
+      <!-- Resource cards will be dynamically generated here -->
+      <div class="resourceCard">
+        <img src="stub-assets/ai.png" alt="Resource Image">
+        <h3>AI Snapshots</h3>
+        <p>Grade: 9-12</p>
+        <p>Duration: Stand Alone Lesson</p>
+        <button>Access Resource</button>
+      </div>
+
+      <div class="resourceCard">
+        <img src="stub-assets/cs1.png" alt="Resource Image">
+        <h3>Diné CS 1</h3>
+        <p>Grade: 9-12</p>
+        <p>Duration: Semester</p>
+        <button>Access Resource</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* styles.css */
+
+:root {
+    --accent-color: #308e8b;
+    --dark-accent-color: #a03838;
+    --main-text-color: #323438;
+    --main-bg-color: #fff;
+  }
+  
+  body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+  }
+  
+  header {
+    color: var(--main-bg-color);
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav img {
+    max-height: 50px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: var(--main-text-color);
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1rem 4rem;
+    background-color: #edebeb;
+  }
+
+  main h1 {
+    color: var(--dark-accent-color);
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  #filters {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--main-text-color);
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+  }
+  
+  #resourceCards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .resourceCard {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--main-text-color);
+  }
+  .resourceCard h3 {
+    font-weight: 500;
+  }
+  
+  .resourceCard img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
