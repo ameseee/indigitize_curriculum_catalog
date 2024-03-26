@@ -30,6 +30,7 @@
     <div id="filters">
       <label for="grade">Grade:</label>
       <select id="grade">
+        <option value="" selected>All</option>
         <option value="k-2">K-2</option>
         <option value="3-5">3-5</option>
         <option value="6-8">6-8</option>
@@ -38,6 +39,7 @@
       
       <label for="duration">Duration:</label>
       <select id="duration">
+        <option value="" selected>Any</option>
         <option value="standalone">Stand Alone Lesson</option>
         <option value="week">Week</option>
         <option value="month">Month</option>
@@ -46,22 +48,23 @@
       
       <label for="topic">Topic:</label>
       <select id="topic">
+        <option value="" selected></option>
+
         <!-- Add your topic options here -->
       </select>
       
       <label for="filter1">Filter 1:</label>
       <select id="filter1">
+        <option value="" selected></option>
+
         <!-- Add your options for filter 1 here -->
       </select>
       
       <label for="filter2">Filter 2:</label>
       <select id="filter2">
+        <option value="" selected></option>
+
         <!-- Add your options for filter 2 here -->
-      </select>
-      
-      <label for="filter3">Filter 3:</label>
-      <select id="filter3">
-        <!-- Add your options for filter 3 here -->
       </select>
       
       <button id="applyFilter">Apply Filter</button>
@@ -69,12 +72,15 @@
     
     <div id="resourceCards">
       <!-- Resource cards will be dynamically generated here -->
+      <!-- Below are 6 stubbed cards to test out styles and functionality of filters before we -->
       <div class="resourceCard">
         <img src="stub-assets/ai.png" alt="Resource Image">
         <h3>AI Snapshots</h3>
         <p>Grade: 9-12</p>
         <p>Duration: Stand Alone Lesson</p>
-        <button>Access Resource</button>
+        <div>
+          <button>Access Resource</button>
+        </div>
       </div>
 
       <div class="resourceCard">
@@ -82,7 +88,50 @@
         <h3>Diné CS 1</h3>
         <p>Grade: 9-12</p>
         <p>Duration: Semester</p>
-        <button>Access Resource</button>
+        <div>
+          <button>Access Resource</button>
+        </div>
+      </div>
+
+      <div class="resourceCard">
+        <img src="stub-assets/ai2.png" alt="Resource Image">
+        <h3>AI: Decision Trees</h3>
+        <p>Grade: 9-12</p>
+        <p>Duration: Stand Alone Lesson</p>
+        <div>
+          <button>Access Resource</button>
+        </div>
+      </div>
+
+      <div class="resourceCard">
+        <img src="stub-assets/unplugged.jpeg" alt="Resource Image">
+        <h3>Unplugged Lessons</h3>
+        <p>Grade: 9-12</p>
+        <p>Duration: Stand Alone Lesson</p>
+        <div>
+          <button>Access Resource</button>
+        </div>
+      </div>
+
+      <div class="resourceCard">
+        <img src="stub-assets/naca_logo.png" alt="Resource Image">
+        <h3>Wellness in Tech</h3>
+        <p>Grade: 9-12</p>
+        <p>Duration: Stand Alone Lesson</p>
+        <div>
+          <button>Access Resource</button>
+        </div>
+        
+      </div>
+
+      <div class="resourceCard">
+        <img src="stub-assets/ai1.png" alt="Resource Image">
+        <h3>AI: Your Data</h3>
+        <p>Grade: 6-8</p>
+        <p>Duration: Week</p>
+        <div>
+          <button>Access Resource</button>
+        </div>
       </div>
     </div>
   </main>
