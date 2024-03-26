@@ -30,41 +30,39 @@
     <div id="filters">
       <label for="grade">Grade:</label>
       <select id="grade">
-        <option value="" selected>All</option>
-        <option value="k-2">K-2</option>
-        <option value="3-5">3-5</option>
+        <option value="All" selected>All</option>
+        <option value="k-5">K-5</option>
         <option value="6-8">6-8</option>
         <option value="9-12">9-12</option>
       </select>
       
       <label for="duration">Duration:</label>
       <select id="duration">
-        <option value="" selected>Any</option>
-        <option value="standalone">Stand Alone Lesson</option>
+        <option value="Any" selected>Any</option>
+        <option value="standalone">Single Lesson</option>
         <option value="week">Week</option>
         <option value="month">Month</option>
         <option value="semester">Semester</option>
       </select>
+    
       
       <label for="topic">Topic:</label>
       <select id="topic">
-        <option value="" selected></option>
-
-        <!-- Add your topic options here -->
+        <option value="Any" selected>Any</option>
+        <option value="standalone">Artificial Intelligence</option>
+        <option value="week">Hollistic Wellness</option>
+        <option value="month">Core Subjects</option>
+        <option value="semester">Other</option>
       </select>
       
-      <label for="filter1">Filter 1:</label>
-      <select id="filter1">
-        <option value="" selected></option>
-
-        <!-- Add your options for filter 1 here -->
-      </select>
-      
-      <label for="filter2">Filter 2:</label>
-      <select id="filter2">
-        <option value="" selected></option>
-
-        <!-- Add your options for filter 2 here -->
+      <label for="device">Device:</label>
+      <select id="device">
+        <option value="Any" selected>Any</option>
+        <option value="standalone">Chromebooks</option>
+        <option value="week">Tablets</option>
+        <option value="semester">Mobile</option>
+        <option value="month">Mixed</option>
+        <option value="semester">None</option>
       </select>
       
       <button id="applyFilter">Apply Filter</button>
